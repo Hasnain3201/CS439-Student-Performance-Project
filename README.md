@@ -9,6 +9,9 @@ Predicting high-school students' final grades (G3) using demographic factors, st
 - Models compared: Linear Regression, Ridge, Lasso, Gradient Boosting. Lasso (alpha=0.1) performed best with MAE ≈ 0.71 and R² ≈ 0.87 on the held-out test split.
 - Evaluation: 80/20 train-test split with 5-fold cross-validation; residual diagnostics; subgroup error checks by sex and school to watch for bias.
 
+## Video Explanation
+- Walkthrough: https://drive.google.com/file/d/1xKWj6Z_pDqm0SwnBeweZnd6RKnJnvzcu/view?usp=sharing
+
 ## Repository Contents
 - `student_performance.ipynb` — main notebook with EDA, feature engineering, modeling, diagnostics, and fairness checks.
 - `student_performance.ipynb.zip` — zipped copy of the notebook (course submission backup).
